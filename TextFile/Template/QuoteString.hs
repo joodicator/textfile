@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleInstances, OverloadedStrings #-}
 {-# OPTIONS_GHC -Wall #-}
 
-module QuoteString(
+module TextFile.Template.QuoteString(
     QuoteString(length, tails, inits, splitAt, splitOn, breakOn,
                 stripPrefix, stripSuffix, isPrefixOf, isSuffixOf),
     lines, unlines

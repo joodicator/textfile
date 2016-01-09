@@ -1,6 +1,6 @@
 {-# LANGUAGE QuasiQuotes, OverloadedStrings, NoMonomorphismRestriction #-}
 
-import Indent
+import TextFile.Template.Indent
 
 html = [indent|
     <!DOCTYPE html>

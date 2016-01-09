@@ -1,12 +1,12 @@
 {-# LANGUAGE TemplateHaskell, OverloadedStrings, DeriveFunctor #-}
 {-# OPTIONS_GHC -Wall #-}
 
-module Indent(indent) where
+module TextFile.Template.Indent(indent) where
 
-import qualified Data.Map.Strict           as M
-import qualified Language.Haskell.TH       as TH
-import qualified Language.Haskell.TH.Quote as TH
-import qualified QuoteString               as QS
+import qualified Data.Map.Strict               as M
+import qualified Language.Haskell.TH           as TH
+import qualified Language.Haskell.TH.Quote     as TH
+import qualified TextFile.Template.QuoteString as QS
 
 import Data.Maybe                  (fromMaybe)
 import Data.List                   (isInfixOf, stripPrefix)
